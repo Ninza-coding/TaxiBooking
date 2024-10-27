@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Admin Dashboard</title>
+</head>
+<body>
+	<h2 th:text="${message}"></h2>
+
+	<h1>Welcome To AdminPanel</h1>
+	<a href="readallcontacts">Read All Contacts</a><br><br>
+	<a href="readAllBookings">Read All Bookings</a><br><br>
+	<a href="changeCredentials">Change Credentials</a><br><br>
+	<a href="addServices">Add Service</a><br><br>
+	
+	<a href="/dologout">Logout</a>
+</body>
+</html>
